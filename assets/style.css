@@ -1,19 +1,25 @@
 /* Give the h1 header a unique id- “mainTopic” & set its color to blue using the id
  selector */
  #mainTopic{
-    color: blue;
-    text-align: center;
+    color: rgb(255, 51, 0);
+  
  }
  /* Align all the text in the page to the center using a universal selector. */
 *{
 text-align: center;
+text-align: center;
+background-image: url(/assets/image/Roxy\ Migurdia.webp );
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
  }
  /* Change the font style of all heading tags in the page to ‘Georgia’. */
 h1,h2,h5{
     /* learning for this code we use (,) for give same style    */
     font-style: Georgia italic bold;
     font-size: large;
-    background-color: aquamarine;
+    background-color: rgb(14, 27, 2);
  }
  /* Set the color of all the paragraphs to white & background color to cornflowerblue.
  (Without using the element selector- ‘p’) */
